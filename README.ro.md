@@ -13,7 +13,7 @@ Acest proiect a fost creat cu ajutorul Parcel. Pentru familiarizare și configur
    [conform instrucțiunilor](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
 6. Setează dependențele proiectului în terminal cu ajutorul comenzii `npm install` .
 7. Pornește modul dezvoltator prin rularea comenzii `npm start`.
-8. Accesează  în browser pagina  [http://localhost:1234](http://localhost:1234).
+8. Accesează  în browser pagina [http://localhost:1234](http://localhost:1234).
    Această pagină se va reîncărca automat după salvarea modificărilor efectuate în fișiere proiectului.
 
 ## Fișiere și foldere
@@ -73,3 +73,4 @@ Dacă se deschide o pagină goală, asigură-te că fila `Console` nu conține e
 1. După fiecare push în ramura `main` a repository-ului GitHub, este rulat un script special (GitHub Action) din fișierul `.github/workflows/deploy.yml`.
 2. Vor fi copiate toate fișierele din repository pe server, unde proiectul va fi inițializat și va trece prin procesul de construcție înainte de implementare
 3. Dacă toți pașii sunt executați cu succes, versiunea de producție asamblată a fișierelor proiectului este trimisă la ramura `gh-pages`. În caz contrar, în jurnalul de execuție al scriptului va fi indicată problema.
+
